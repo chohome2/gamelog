@@ -26,7 +26,7 @@ angular.module('mean.chart').controller('ChartController', ['$scope', 'Global', 
                     inputEnabled: $('#container').width() > 480
                 },
                 title : {
-                    text : 'AAPL Stock Price'
+                    text : 'chart sample'
                 },
                 series : [{
                     name : 'AAPL',
