@@ -3,7 +3,7 @@
 {% endfor %}
 
 <script type="text/javascript" src="/modules/aggregated.js"></script>
-
+<script src="http://code.highcharts.com/stock/highstock.js"></script>
 {% if (process.env.NODE_ENV == 'development') %}
   <!-- Livereload script rendered -->
   <script type="text/javascript" src="{{'http://' + req.hostname + ':35729/livereload.js'}}"></script>
